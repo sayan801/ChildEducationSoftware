@@ -1,0 +1,33 @@
+Project Proposal Formulation
+
+**Proforma for Approval of Project Proposal (form I send) duly filled
+and signed by both the student and the Project Guide with date.
+**Bio-data of the project guide with her/his signature and date.
+**Synopsis of the project proposal (15-20 pages) covering the following aspects:
+(i) Title of the Project.
+(ii) Introduction and Objectives of the Project.
+(iii) Project Category (RDBMS/OOPS/Networking/Multimedia/Artificial
+Intelligence/Expert Systems etc.).
+(iv) Tools/Platform, Hardware and Software Requirement specifications.
+(v) Problem Definition, Requirement Specifications (Detailed
+functional Requirements and Technical Specifications), Project
+Planning and Scheduling (Gantt chart and PERT chart).
+(vi) Scope of the solution.
+(vii) Analysis (Data Models like 0, 1 and 2 level DFDs, Complete ER
+Diagrams with cardinality, Class Diagrams etc. as per the project
+requirements).
+(viii) A complete Database and tables detail with Primary and Foreign
+keys, and proper constraints in the fields (as per project
+requirements)
+(ix) A complete structure which includes:
+? Number of modules and their description to provide an estimation of
+the student?s effort on the project. Along with process logic of each
+Module.
+? Data Structures as per the project requirements for all the modules.
+? Process Logic of each module.
+? Implementation methodology
+? List of reports that are likely to be generated.
+(x) Overall network architecture (if required for your project)
+(xi) Implementation of security mechanisms at various levels
+(xii) Future scope and further enhancement of the project.
+(xiii) Bibliography
