@@ -1,0 +1,81 @@
+<Project>
+  <Name>ChildEducationSoftware</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ChildEducationSoftwareGUI.exe</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>App</Name>
+        <Access>Public</Access>
+        <Location left="224" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public App()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">public static Void Main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainWindow</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="417" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Label textAreaPane</Member>
+        <Member type="Field">internal TabControl playerPane</Member>
+        <Member type="Field">internal MediaElement MediaEL</Member>
+        <Member type="Field">internal Button btnPlay</Member>
+        <Member type="Field">internal Button btnStop</Member>
+        <Member type="Field">internal Button btnMoveBackward</Member>
+        <Member type="Field">internal Button btnMoveForward</Member>
+        <Member type="Field">internal Button btnOpen</Member>
+        <Member type="Field">internal InkCanvas drawingPane</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public MainWindow()</Member>
+        <Member type="Method">private Void Expander_Expanded(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void IsPlaying(Boolean bValue)</Member>
+        <Member type="Method">private Void btnPlay_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void btnStop_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void btnMoveForward_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void btnMoveBackward_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void btnOpen_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ChildEducationSoftwareEngine.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CESEngine</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public CESEngine()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ChildEducationSoftwareStorage.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>ChildEducationSoftwareStorage</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public ChildEducationSoftwareStorage()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
