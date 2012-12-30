@@ -5,39 +5,33 @@ using System.Text;
 
 namespace ChildEducationSoftwareEngine
 {
-    public class CESEngine
+    public class CESController
     {
-    }
-
-    public class OpenPDNConnector
-    {
-        public DrawingEditInfo editPhoto(PhotoInfo photo, DrawingEditType type)
-        {
-            throw new NotImplementedException();
-        }
-    }
-    public class PSMSController
-    {
-        public EmployeeManager employeeController;
-        public CustomerManager customerController;
+        public ExerciseManager employeeController;
+        public LessonManager customerController;
         public List<ReportInfo> reports;
         public List<PaymentInfo> payments;
     }
 
-    public class EmployeeManager
+    public class MemberManager
     {
-        public List<EmployeeInfo> employees;
+        public List<MemberInfo> members;
     }
 
-    public class CustomerManager
+    public class ExerciseManager
     {
-        public List<CustomerInfo> customers;
+        public List<ExerciseInfo> excercises;
+        public ScoreInfo finalScore;
     }
 
-    public class PhotoEditController
+    public class LessonManager
+    {
+        public List<LessonInfo> lessons;
+    }
+
+    public class DrawingEditController
     {
         public List<DrawingEditInfo> edits;
-        public OpenPDNConnector editAPIs;
     }
 
     public enum AccountType
@@ -54,7 +48,9 @@ namespace ChildEducationSoftwareEngine
         public string address { get; set; }
         public string contact { get; set; }
         public AccountType accType { get; set; }
-        public List<PhotoInfo> photos;
+        public List<LessonInfo> lessonBought;
+        public List<ExerciseInfo> exceciseAttempted;
+        public List<DrawingInfo> drawingsMade;
         public List<PaymentInfo> payements;
     }
 
@@ -62,27 +58,40 @@ namespace ChildEducationSoftwareEngine
     {
         public string id { get; set; }
         public string name { get; set; }
-        public string customerId { get; set; }
+        public string memberId { get; set; }
         public double amount { get; set; }
         public DateTime dop { get; set; }
+        public string gateway;
     }
     public class LessonInfo
     {
         string name;
-        string softwareUsedForCapture;
-        string ImageFile;
+        int ageGroup;
+        ImageInfo imageFile;
+        VideoInfo videoFile;
+        AudioInfo audioFile;
+        TextInfo textFile;
         double size;
-        DateTime dateTaken;
-        List<DrawingEditInfo> edits;
+        DateTime datePurchased;
+        List<DrawingInfo> drawings;
     }
     public class ExerciseInfo
     {
         string name;
-        string softwareUsedForCapture;
-        string ImageFile;
+        LessonInfo relatedLesson;
+        ImageInfo imageFile;
+        VideoInfo videoFile;
+        AudioInfo audioFile;
+        TextInfo textFile;
         double size;
         DateTime dateTaken;
-        List<DrawingEditInfo> edits;
+        ScoreInfo score;
+
+    }
+    public class ScoreInfo
+    {
+        int maxNumber;
+        int scoredMarks;
     }
     public class DrawingInfo
     {
@@ -93,32 +102,33 @@ namespace ChildEducationSoftwareEngine
         DateTime dateTaken;
         List<DrawingEditInfo> edits;
     }
+    public class TextInfo
+    {
+        string name;
+        string txtFile;
+        double size;
+        DateTime dateTaken;
+    }
     public class AudioInfo
     {
         string name;
-        string softwareUsedForCapture;
-        string ImageFile;
+        string audioFile;
         double size;
         DateTime dateTaken;
-        List<DrawingEditInfo> edits;
     }
     public class VideoInfo
     {
         string name;
-        string softwareUsedForCapture;
-        string ImageFile;
+        string videoFile;
         double size;
         DateTime dateTaken;
-        List<DrawingEditInfo> edits;
     }
     public class ImageInfo
     {
         string name;
-        string softwareUsedForCapture;
         string ImageFile;
         double size;
         DateTime dateTaken;
-        List<DrawingEditInfo> edits;
     }
 
     public enum DrawingEditType
