@@ -7,7 +7,7 @@
       <Entity type="Class">
         <Name>App</Name>
         <Access>Public</Access>
-        <Location left="224" top="12" />
+        <Location left="227" top="149" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Constructor">public App()</Member>
@@ -18,7 +18,7 @@
       <Entity type="Class">
         <Name>MainWindow</Name>
         <Access>Public</Access>
-        <Location left="12" top="12" />
+        <Location left="864" top="220" />
         <Size width="162" height="417" />
         <Collapsed>False</Collapsed>
         <Member type="Field">internal Label textAreaPane</Member>
@@ -43,8 +43,89 @@
         <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
         <Modifier>None</Modifier>
       </Entity>
+      <Entity type="Class">
+        <Name>MemberManager</Name>
+        <Access>Public</Access>
+        <Location left="650" top="149" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;MemberInfo&gt; members</Member>
+        <Member type="Constructor">public MemberManager()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DrawingEditInfo</Name>
+        <Access>Public</Access>
+        <Location left="451" top="422" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsedtoEdit</Member>
+        <Member type="Field">private MemberInfo memberEdited</Member>
+        <Member type="Field">private String OriginalImageFile</Member>
+        <Member type="Field">private String EditedImageFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateEdited</Member>
+        <Member type="Field">private DrawingEditType type</Member>
+        <Member type="Constructor">public DrawingEditInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>DrawingEditType</Name>
+        <Access>Public</Access>
+        <Location left="216" top="434" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Rotate = 0</Value>
+        <Value>Crop = 1</Value>
+        <Value>Stretch = 2</Value>
+        <Value>Brighten = 3</Value>
+        <Value>Sepia = 4</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>MemberInfo</Name>
+        <Access>Public</Access>
+        <Location left="650" top="409" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;LessonInfo&gt; lessonBought</Member>
+        <Member type="Field">public List&lt;ExerciseInfo&gt; exceciseAttempted</Member>
+        <Member type="Field">public List&lt;DrawingInfo&gt; drawingsMade</Member>
+        <Member type="Field">public List&lt;PaymentInfo&gt; payements</Member>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String address { get; set; }</Member>
+        <Member type="Property">public String contact { get; set; }</Member>
+        <Member type="Property">public AccountType accType { get; set; }</Member>
+        <Member type="Constructor">public MemberInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ReportInfo</Name>
+        <Access>Public</Access>
+        <Location left="451" top="149" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public DateTime date { get; set; }</Member>
+        <Member type="Property">public ReportType type { get; set; }</Member>
+        <Member type="Property">public String description { get; set; }</Member>
+        <Member type="Constructor">public ReportInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
     </Entities>
-    <Relationships />
+    <Relationships>
+      <Relationship type="Association" first="3" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>type</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
   </ProjectItem>
   <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
     <Name>ChildEducationSoftwareEngine.dll</Name>
@@ -77,5 +158,339 @@
       </Entity>
     </Entities>
     <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>ChildEducationSoftwareEngine.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>CESController</Name>
+        <Access>Public</Access>
+        <Location left="672" top="826" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public ExerciseManager employeeController</Member>
+        <Member type="Field">public LessonManager customerController</Member>
+        <Member type="Field">public List&lt;ReportInfo&gt; reports</Member>
+        <Member type="Field">public List&lt;PaymentInfo&gt; payments</Member>
+        <Member type="Constructor">public CESController()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExerciseManager</Name>
+        <Access>Public</Access>
+        <Location left="357" top="826" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;ExerciseInfo&gt; excercises</Member>
+        <Member type="Field">public ScoreInfo finalScore</Member>
+        <Member type="Constructor">public ExerciseManager()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LessonManager</Name>
+        <Access>Public</Access>
+        <Location left="1008" top="826" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;LessonInfo&gt; lessons</Member>
+        <Member type="Constructor">public LessonManager()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DrawingEditController</Name>
+        <Access>Public</Access>
+        <Location left="1249" top="826" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public List&lt;DrawingEditInfo&gt; edits</Member>
+        <Member type="Constructor">public DrawingEditController()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LessonInfo</Name>
+        <Access>Public</Access>
+        <Location left="1047" top="389" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private Int32 ageGroup</Member>
+        <Member type="Field">private ImageInfo imageFile</Member>
+        <Member type="Field">private VideoInfo videoFile</Member>
+        <Member type="Field">private AudioInfo audioFile</Member>
+        <Member type="Field">private TextInfo textFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime datePurchased</Member>
+        <Member type="Field">private List&lt;DrawingInfo&gt; drawings</Member>
+        <Member type="Constructor">public LessonInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExerciseInfo</Name>
+        <Access>Public</Access>
+        <Location left="672" top="494" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private LessonInfo relatedLesson</Member>
+        <Member type="Field">private ImageInfo imageFile</Member>
+        <Member type="Field">private VideoInfo videoFile</Member>
+        <Member type="Field">private AudioInfo audioFile</Member>
+        <Member type="Field">private TextInfo textFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Field">private ScoreInfo score</Member>
+        <Member type="Constructor">public ExerciseInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ScoreInfo</Name>
+        <Access>Public</Access>
+        <Location left="357" top="552" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 maxNumber</Member>
+        <Member type="Field">private Int32 scoredMarks</Member>
+        <Member type="Constructor">public ScoreInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DrawingInfo</Name>
+        <Access>Public</Access>
+        <Location left="1249" top="290" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsedForCapture</Member>
+        <Member type="Field">private String ImageFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Field">private List&lt;DrawingEditInfo&gt; edits</Member>
+        <Member type="Constructor">public DrawingInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TextInfo</Name>
+        <Access>Public</Access>
+        <Location left="357" top="302" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String txtFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Constructor">public TextInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AudioInfo</Name>
+        <Access>Public</Access>
+        <Location left="621" top="107" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String audioFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Constructor">public AudioInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>VideoInfo</Name>
+        <Access>Public</Access>
+        <Location left="897" top="107" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String videoFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Constructor">public VideoInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ImageInfo</Name>
+        <Access>Public</Access>
+        <Location left="1249" top="547" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String ImageFile</Member>
+        <Member type="Field">private Double size</Member>
+        <Member type="Field">private DateTime dateTaken</Member>
+        <Member type="Constructor">public ImageInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PaymentInfo</Name>
+        <Access>Public</Access>
+        <Location left="1078" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public String gateway</Member>
+        <Member type="Property">public String id { get; set; }</Member>
+        <Member type="Property">public String name { get; set; }</Member>
+        <Member type="Property">public String memberId { get; set; }</Member>
+        <Member type="Property">public Double amount { get; set; }</Member>
+        <Member type="Property">public DateTime dop { get; set; }</Member>
+        <Member type="Constructor">public PaymentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ReportType</Name>
+        <Access>Public</Access>
+        <Location left="357" top="57" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Single = 0</Value>
+        <Value>Daily = 1</Value>
+        <Value>Weekly = 2</Value>
+        <Value>Monthly = 3</Value>
+        <Value>Quarterly = 4</Value>
+        <Value>Yearly = 5</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>AccountType</Name>
+        <Access>Public</Access>
+        <Location left="1265" top="48" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Free = 0</Value>
+        <Value>Basic = 1</Value>
+        <Value>Professional = 2</Value>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>employeeController</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>customerController</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="1" second="6">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>finalScore</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="11">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>imageFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="10">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>videoFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="9">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>audioFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="8">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>textFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>relatedLesson</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="11">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>imageFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="10">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>videoFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="9">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>audioFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="8">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>textFile</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="6">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>score</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
   </ProjectItem>
 </Project>
