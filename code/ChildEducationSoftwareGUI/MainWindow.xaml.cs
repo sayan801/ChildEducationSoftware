@@ -82,7 +82,7 @@ namespace ChildEducationSoftwareGUI
         private void btnOpen_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog ofd = new Microsoft.Win32.OpenFileDialog();
-            ofd.Filter = "Video Files (*.wmv)|*.wmv";
+            ofd.Filter = "Video (*.wmv)|*.wmv|Audio(*.mp3)|*.mp3";
             if (ofd.ShowDialog() == true)
             {
                 MediaEL.Source = new Uri(ofd.FileName);
