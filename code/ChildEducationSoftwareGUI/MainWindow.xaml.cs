@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace ChildEducationSoftwareGUI
 {
@@ -90,6 +91,95 @@ namespace ChildEducationSoftwareGUI
             }
         }
         #endregion
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            drawingPane.Strokes.Clear();
+        }
         
+
+        private void blueBtn_Click(object sender, RoutedEventArgs e)
+        {
+            drawingPane.DefaultDrawingAttributes.Color = Colors.Blue;
+            drawingPane.DefaultDrawingAttributes.Height = 2;
+            drawingPane.DefaultDrawingAttributes.Width = 2;
+        }
+
+        private void eraseBtn_Click(object sender, RoutedEventArgs e)
+        {
+            drawingPane.EditingMode = InkCanvasEditingMode.EraseByPoint;
+        }
+
+        private void cboColor_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cboColor.Items.Count > 0 && ((ComboBoxItem)cboColor.SelectedItem).Content != null)
+            {
+                if (((ComboBoxItem)cboColor.SelectedItem).Content.ToString() == "Blue")
+                    drawingPane.DefaultDrawingAttributes.Color = Colors.Blue;
+                else if (((ComboBoxItem)cboColor.SelectedItem).Content.ToString() == "Green")
+                    drawingPane.DefaultDrawingAttributes.Color = Colors.Green;
+                else if (((ComboBoxItem)cboColor.SelectedItem).Content.ToString() == "Red")
+                    drawingPane.DefaultDrawingAttributes.Color = Colors.Red;
+                else if (((ComboBoxItem)cboColor.SelectedItem).Content.ToString() == "Yellow")
+                    drawingPane.DefaultDrawingAttributes.Color = Colors.Yellow;
+                else if (((ComboBoxItem)cboColor.SelectedItem).Content.ToString() == "Black")
+                    drawingPane.DefaultDrawingAttributes.Color = Colors.Black;
+            }
+
+        }
+
+        private void cboBrushSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cboBrushSize.Items.Count > 0 && ((ComboBoxItem)cboBrushSize.SelectedItem).Content != null)
+            {
+                if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "2")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 2;
+                    drawingPane.DefaultDrawingAttributes.Height = 2;
+                }
+                else if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "1")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 1;
+                    drawingPane.DefaultDrawingAttributes.Height = 1;
+                }
+                else if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "4")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 4;
+                    drawingPane.DefaultDrawingAttributes.Height = 4;
+                }
+                else if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "6")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 6;
+                    drawingPane.DefaultDrawingAttributes.Height = 6;
+                }
+                else if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "8")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 8;
+                    drawingPane.DefaultDrawingAttributes.Height = 8;
+                }
+                else if (((ComboBoxItem)cboBrushSize.SelectedItem).Content.ToString() == "10")
+                {
+                    drawingPane.DefaultDrawingAttributes.Width = 10;
+                    drawingPane.DefaultDrawingAttributes.Height = 10;
+                }
+
+            }
+        }
+
+        private void RadMode_Checked(object sender, RoutedEventArgs e)
+        {
+            /// Sets the editing mode to Ink or Select.
+            
+            if (radSelectMode.IsChecked.Value == true)
+                drawingPane.EditingMode = InkCanvasEditingMode.Select;
+            //else if (radDrawingMode.IsChecked.Value == true)
+            //    drawingPane.EditingMode = InkCanvasEditingMode.Ink;
+        }
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
     }
 }
