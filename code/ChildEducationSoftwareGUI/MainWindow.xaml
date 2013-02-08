@@ -123,7 +123,7 @@
                         <ComboBoxItem Background="Red">Red</ComboBoxItem>
                         <ComboBoxItem Background="Yellow">Yellow</ComboBoxItem>
                     </ComboBox>
-                    
+                    <Button Content="Brush" Name="rushBtn" Click="rushBtn_Click"></Button>
                     <Button Content="Erase" Name="eraseBtn" Click="eraseBtn_Click"></Button>
                     <Button Name="btnClear" Content="Clear" Click="btnClear_Click" />
                     
@@ -138,13 +138,14 @@
                         <UniformGrid>
                             
                             <RadioButton Name="radSelectMode" GroupName="mode" HorizontalAlignment="Right" Checked="RadMode_Checked" Content="Select"></RadioButton>
-                            <!--<RadioButton Name="radDrawingMode"  GroupName="mode" HorizontalAlignment="Left" Height="24.723" Checked="RadMode_Checked" VerticalAlignment="Top"  IsChecked="True" Content="Drawing">
-                            </RadioButton>-->
+                            <RadioButton Name="radDrawingMode"  GroupName="mode" HorizontalAlignment="Left" Height="24.723" Checked="RadDrawMode_Checked" VerticalAlignment="Top"  IsChecked="True" Content="Drawing">
+                            </RadioButton>
+                            <RadioButton Name="radEraseMode" GroupName="mode" HorizontalAlignment="Right" Checked="RadMode_Checked" Content="Erase"></RadioButton>
                         </UniformGrid>
                     </GroupBox>
                 </UniformGrid>
 
-                <InkCanvas Name="drawingPane" DockPanel.Dock="Left" Background="#FFE9EEF2" EditingMode="InkAndGesture" ClipToBounds="True"></InkCanvas>
+                <InkCanvas Name="drawingPane" DockPanel.Dock="Left" Background="#FFC6D8C2"  ClipToBounds="True"></InkCanvas>
                 
             </DockPanel>
 

@@ -98,12 +98,7 @@ namespace ChildEducationSoftwareGUI
         }
         
 
-        private void blueBtn_Click(object sender, RoutedEventArgs e)
-        {
-            drawingPane.DefaultDrawingAttributes.Color = Colors.Blue;
-            drawingPane.DefaultDrawingAttributes.Height = 2;
-            drawingPane.DefaultDrawingAttributes.Width = 2;
-        }
+       
 
         private void eraseBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -174,11 +169,31 @@ namespace ChildEducationSoftwareGUI
                 drawingPane.EditingMode = InkCanvasEditingMode.Select;
             //else if (radDrawingMode.IsChecked.Value == true)
             //    drawingPane.EditingMode = InkCanvasEditingMode.Ink;
+            else if (radEraseMode.IsChecked.Value == true)
+            drawingPane.EditingMode = InkCanvasEditingMode.EraseByPoint;
         }
+
+        private void RadDrawMode_Checked(object sender, RoutedEventArgs e)
+        {
+            //drawingPane.EditingMode = InkCanvasEditingMode.Ink;
+        }
+
+        //private void RadEraseMode_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    drawingPane.EditingMode = InkCanvasEditingMode.EraseByPoint;
+        //}
+
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             
+        }
+
+        private void rushBtn_Click(object sender, RoutedEventArgs e)
+        {
+            drawingPane.DefaultDrawingAttributes.Color = Colors.Blue;
+            drawingPane.DefaultDrawingAttributes.Height = 2;
+            drawingPane.DefaultDrawingAttributes.Width = 2;
         }
 
     }
