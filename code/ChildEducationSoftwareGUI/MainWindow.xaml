@@ -82,7 +82,7 @@
                 <UniformGrid DockPanel.Dock="Top">
                     <TabControl Name="playerPane" TabStripPlacement="Right">
                         <TabItem Header="Video">
-                            <Grid Height="270">
+                            <Grid Height="250">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="226*" />
                                     <RowDefinition Height="36*" />
@@ -97,8 +97,16 @@
                                 </StackPanel>
                             </Grid>
                         </TabItem>
-                        <TabItem Header="Image">
-                            <Image Source="/ChildEducationSoftwareGUI;component/Images/apple-img.png" Height="266" Width="433" />
+                        <TabItem Header="Photo">
+                            <Grid Height="250">
+                                <Image Source="/ChildEducationSoftwareGUI;component/Images/apple-img.png" Height="266" Width="433" />
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Books">
+                            <Grid Height="250"></Grid>
+                        </TabItem>
+                        <TabItem Header="Typing">
+                            <Grid Height="250"></Grid>
                         </TabItem>
                     </TabControl>
                 </UniformGrid>
