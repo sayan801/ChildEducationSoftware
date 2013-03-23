@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{45C02ADF-F69B-48DC-882D-B23B2274E836}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{DCF0005B-473E-4F6A-BD4F-1019071D24A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChildEducationSoftwareGUI</RootNamespace>
-    <AssemblyName>ChildEducationSoftwareGUI</AssemblyName>
+    <RootNamespace>ChildEducationSoftwareStyle</RootNamespace>
+    <AssemblyName>ChildEducationSoftwareStyle</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -35,6 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -49,24 +52,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,21 +78,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ChildEducationSoftwareEngine\ChildEducationSoftwareEngine.csproj">
-      <Project>{2B6C73CF-29F6-478A-AB57-CB7122E181DE}</Project>
-      <Name>ChildEducationSoftwareEngine</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChildEducationSoftwareStorage\ChildEducationSoftwareStorage.csproj">
-      <Project>{3027D70E-7678-43F4-A452-F374E690E49A}</Project>
-      <Name>ChildEducationSoftwareStorage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ChildEducationSoftwareStyle\ChildEducationSoftwareStyle.csproj">
-      <Project>{DCF0005B-473E-4F6A-BD4F-1019071D24A6}</Project>
-      <Name>ChildEducationSoftwareStyle</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\apple-img.png" />
+    <Page Include="CommonStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

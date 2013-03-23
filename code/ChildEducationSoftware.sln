@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildEducationSoftwareStorage", "ChildEducationSoftwareStorage\ChildEducationSoftwareStorage.csproj", "{3027D70E-7678-43F4-A452-F374E690E49A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildEducationSoftwareGUI", "ChildEducationSoftwareGUI\ChildEducationSoftwareGUI.csproj", "{45C02ADF-F69B-48DC-882D-B23B2274E836}"
@@ -8,6 +8,8 @@ EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CESInstaller", "CESInstaller\CESInstaller.vdproj", "{A2BF4DFC-BAAC-433C-A143-65F75AC2493A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildEducationSoftwareEngine", "ChildEducationSoftwareEngine\ChildEducationSoftwareEngine.csproj", "{2B6C73CF-29F6-478A-AB57-CB7122E181DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildEducationSoftwareStyle", "ChildEducationSoftwareStyle\ChildEducationSoftwareStyle.csproj", "{DCF0005B-473E-4F6A-BD4F-1019071D24A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,16 @@ Global
 		{2B6C73CF-29F6-478A-AB57-CB7122E181DE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2B6C73CF-29F6-478A-AB57-CB7122E181DE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2B6C73CF-29F6-478A-AB57-CB7122E181DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Debug|x86.ActiveCfg = Debug|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Debug|x86.Build.0 = Debug|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Release|Any CPU.ActiveCfg = Release|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Release|x86.ActiveCfg = Release|x86
+		{DCF0005B-473E-4F6A-BD4F-1019071D24A6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

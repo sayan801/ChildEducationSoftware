@@ -1,0 +1,135 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="labelStyle" TargetType="Label">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Opacity" Value="0.7"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Bold" />
+        
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="20 0 0 0"/>
+    </Style>
+    <Style x:Key="textboxStyle" TargetType="TextBox">
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style x:Key="passwordboxStyle" TargetType="PasswordBox">
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Height" Value="60" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style x:Key="comboboxStyle" TargetType="ComboBox">
+        <Setter Property="Background" Value="#FF71768C" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="IsEditable" Value="True" />
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+
+        <Setter Property="SelectedIndex" Value="1"/>
+    </Style>
+    <Style x:Key="ControlBtnStyle" TargetType="Button">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="Green" Offset="0" />
+                    <GradientStop Color="#FFE0C375" Offset="1" />
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#FFE9F9DE" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF3DC43D" />
+        <Setter Property="Width" Value="300" />
+        <Setter Property="Height" Value="100" />
+        <Setter Property="OpacityMask" Value="White" />
+    </Style>
+    <Style x:Key="MainBtnStyle" TargetType="Button">
+
+
+
+        <Setter Property="Background" Value="#FF71768C" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF001900" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" 
+                            BorderThickness="1"
+                            Padding="4,2" 
+                            BorderBrush="White" 
+                            CornerRadius="0" 
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="BorderBrush" Value="#FF87742D" /> 
+                            <Setter Property="Button.Background" Value="#FF512155" />
+                            <Setter Property="Button.Foreground" Value="#FFADA4A4" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="BorderBrush" Value="White" />
+                            <Setter Property="Button.Background" Value="#D8D8D8" />
+                        </Trigger>
+
+
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="datePickerStyle" TargetType="DatePicker">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+    <!--<Style x:Key="UserCntrlStyle" TargetType="UserControl">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/SecurityManagementSystem;component/Images/complex.jpg" />
+            </Setter.Value>
+        </Setter>
+
+    </Style>-->
+
+
+    <!--<Style x:Key="wincntrlStyle" TargetType="Window">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="/SecurityManagementSystem;component/Images/complex.jpg" />
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+    <Style x:Key="TabItemStyle" TargetType="TabItem">
+        <Setter Property="Background" Value="#FF71768C" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="BorderBrush" Value="#FF001900" />
+    </Style>
+    <Style x:Key="ListViewStyle" TargetType="ListView">
+
+        <Setter Property="Foreground" Value="#FF72633F" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="BorderBrush" Value="#FF001900" />
+    </Style>
+
+</ResourceDictionary>
