@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AccountType enumeration" Url="html/1041126080.htm" />
+  <HelpKINode Title="AccountType.Basic field" Url="html/1775265436.htm" />
+  <HelpKINode Title="AccountType.Free field" Url="html/87237133.htm" />
+  <HelpKINode Title="AccountType.Professional field" Url="html/130862282.htm" />
+  <HelpKINode Title="accType property" Url="html/930953000.htm" />
+  <HelpKINode Title="address property" Url="html/2123017781.htm" />
+  <HelpKINode Title="ageGroup field" Url="html/1400200839.htm" />
+  <HelpKINode Title="amount property" Url="html/237729479.htm" />
+  <HelpKINode Title="App class" Url="html/1590981133.htm" />
+  <HelpKINode Title="App class" Url="html/1973931447.htm" />
+  <HelpKINode Title="App class">
+    <HelpKINode Title="about App class" Url="html/1973931447.htm" />
+    <HelpKINode Title="all members" Url="html/1590981133.htm" />
+    <HelpKINode Title="constructor" Url="html/1223977767.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.App constructor" Url="html/1223977767.htm" />
+  <HelpKINode Title="audioFile field" Url="html/1280783559.htm" />
+  <HelpKINode Title="audioFile field" Url="html/1405229831.htm" />
+  <HelpKINode Title="audioFile field" Url="html/463312174.htm" />
+  <HelpKINode Title="AudioInfo class" Url="html/1582667939.htm" />
+  <HelpKINode Title="AudioInfo class" Url="html/772088807.htm" />
+  <HelpKINode Title="AudioInfo class">
+    <HelpKINode Title="about AudioInfo class" Url="html/1582667939.htm" />
+    <HelpKINode Title="all members" Url="html/772088807.htm" />
+    <HelpKINode Title="fields" Url="html/1546162563.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AudioInfo.audioFile field" Url="html/463312174.htm" />
+  <HelpKINode Title="AudioInfo.dateTaken field" Url="html/469846506.htm" />
+  <HelpKINode Title="AudioInfo.name field" Url="html/2088085032.htm" />
+  <HelpKINode Title="AudioInfo.size field" Url="html/27216640.htm" />
+  <HelpKINode Title="Basic enumeration member" Url="html/1041126080.htm" />
+  <HelpKINode Title="Basic field" Url="html/1775265436.htm" />
+  <HelpKINode Title="Brighten enumeration member" Url="html/745124001.htm" />
+  <HelpKINode Title="Brighten field" Url="html/2039896225.htm" />
+  <HelpKINode Title="CESController class" Url="html/447011567.htm" />
+  <HelpKINode Title="CESController class" Url="html/541674045.htm" />
+  <HelpKINode Title="CESController class">
+    <HelpKINode Title="about CESController class" Url="html/541674045.htm" />
+    <HelpKINode Title="all members" Url="html/447011567.htm" />
+    <HelpKINode Title="fields" Url="html/20505592.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CESController.customerController field" Url="html/2075059205.htm" />
+  <HelpKINode Title="CESController.employeeController field" Url="html/1468292084.htm" />
+  <HelpKINode Title="CESController.payments field" Url="html/1943607572.htm" />
+  <HelpKINode Title="CESController.reports field" Url="html/1099237775.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine namespace" Url="html/333206046.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.AccountType enumeration" Url="html/1041126080.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.AudioInfo class" Url="html/1582667939.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.AudioInfo class" Url="html/772088807.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.CESController class" Url="html/447011567.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.CESController class" Url="html/541674045.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingEditController class" Url="html/1949375948.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingEditController class" Url="html/477062516.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingEditInfo class" Url="html/1062276712.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingEditInfo class" Url="html/2088175434.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingEditType enumeration" Url="html/745124001.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingInfo class" Url="html/424069616.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.DrawingInfo class" Url="html/996697386.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ExerciseInfo class" Url="html/2090516743.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ExerciseInfo class" Url="html/280298037.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ExerciseManager class" Url="html/149433560.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ExerciseManager class" Url="html/1597180332.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ImageInfo class" Url="html/1026349005.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ImageInfo class" Url="html/1131969157.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.LessonInfo class" Url="html/1175746970.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.LessonInfo class" Url="html/304630710.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.LessonManager class" Url="html/1383409031.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.LessonManager class" Url="html/741694114.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.MemberInfo class" Url="html/1042239657.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.MemberInfo class" Url="html/1373341276.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.MemberManager class" Url="html/1327906790.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.MemberManager class" Url="html/644999019.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.PaymentInfo class" Url="html/1719766624.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.PaymentInfo class" Url="html/346412356.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ReportInfo class" Url="html/2035108340.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ReportInfo class" Url="html/905045251.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ReportType enumeration" Url="html/1246053874.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ScoreInfo class" Url="html/1339366881.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.ScoreInfo class" Url="html/1792458515.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.TextInfo class" Url="html/2072101315.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.TextInfo class" Url="html/437253977.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.VideoInfo class" Url="html/1488063546.htm" />
+  <HelpKINode Title="ChildEducationSoftwareEngine.VideoInfo class" Url="html/855415177.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI namespace" Url="html/848302708.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.App class" Url="html/1590981133.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.App class" Url="html/1973931447.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.MainWindow class" Url="html/1917943267.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.MainWindow class" Url="html/38050617.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.Properties namespace" Url="html/1902788372.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.Properties.Resources class" Url="html/2064594663.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.Properties.Resources class" Url="html/762499222.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.Properties.Settings class" Url="html/114054946.htm" />
+  <HelpKINode Title="ChildEducationSoftwareGUI.Properties.Settings class" Url="html/1612438071.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStorage class" Url="html/1153410324.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStorage class">
+    <HelpKINode Title="about ChildEducationSoftwareStorage class" Url="html/1153410324.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChildEducationSoftwareStorage namespace" Url="html/292741945.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStorage.ChildEducationSoftwareStorage class" Url="html/1153410324.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStyle.Properties namespace" Url="html/1403211909.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStyle.Properties.Resources class" Url="html/121570590.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStyle.Properties.Resources class" Url="html/341460498.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStyle.Properties.Settings class" Url="html/343051425.htm" />
+  <HelpKINode Title="ChildEducationSoftwareStyle.Properties.Settings class" Url="html/632708794.htm" />
+  <HelpKINode Title="contact property" Url="html/599246334.htm" />
+  <HelpKINode Title="Crop enumeration member" Url="html/745124001.htm" />
+  <HelpKINode Title="Crop field" Url="html/812213749.htm" />
+  <HelpKINode Title="Culture property" Url="html/2103610068.htm" />
+  <HelpKINode Title="Culture property" Url="html/687856003.htm" />
+  <HelpKINode Title="customerController field" Url="html/2075059205.htm" />
+  <HelpKINode Title="Daily enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Daily field" Url="html/349244962.htm" />
+  <HelpKINode Title="date property" Url="html/1779133805.htm" />
+  <HelpKINode Title="dateEdited field" Url="html/1979465604.htm" />
+  <HelpKINode Title="datePurchased field" Url="html/1632341038.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/1328726120.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/1895100703.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/2002873676.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/425582984.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/469846506.htm" />
+  <HelpKINode Title="dateTaken field" Url="html/663768967.htm" />
+  <HelpKINode Title="Default property" Url="html/164568963.htm" />
+  <HelpKINode Title="Default property" Url="html/1864775192.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/111490795.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/1398378968.htm" />
+  <HelpKINode Title="description property" Url="html/256573869.htm" />
+  <HelpKINode Title="dop property" Url="html/962501549.htm" />
+  <HelpKINode Title="DrawingEditController class" Url="html/1949375948.htm" />
+  <HelpKINode Title="DrawingEditController class" Url="html/477062516.htm" />
+  <HelpKINode Title="DrawingEditController class">
+    <HelpKINode Title="about DrawingEditController class" Url="html/477062516.htm" />
+    <HelpKINode Title="all members" Url="html/1949375948.htm" />
+    <HelpKINode Title="fields" Url="html/210875505.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawingEditController.edits field" Url="html/1305153981.htm" />
+  <HelpKINode Title="DrawingEditInfo class" Url="html/1062276712.htm" />
+  <HelpKINode Title="DrawingEditInfo class" Url="html/2088175434.htm" />
+  <HelpKINode Title="DrawingEditInfo class">
+    <HelpKINode Title="about DrawingEditInfo class" Url="html/1062276712.htm" />
+    <HelpKINode Title="all members" Url="html/2088175434.htm" />
+    <HelpKINode Title="fields" Url="html/924991214.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawingEditInfo.dateEdited field" Url="html/1979465604.htm" />
+  <HelpKINode Title="DrawingEditInfo.EditedImageFile field" Url="html/1994718165.htm" />
+  <HelpKINode Title="DrawingEditInfo.memberEdited field" Url="html/1078743915.htm" />
+  <HelpKINode Title="DrawingEditInfo.name field" Url="html/1562603502.htm" />
+  <HelpKINode Title="DrawingEditInfo.OriginalImageFile field" Url="html/130786037.htm" />
+  <HelpKINode Title="DrawingEditInfo.size field" Url="html/1247711242.htm" />
+  <HelpKINode Title="DrawingEditInfo.softwareUsedtoEdit field" Url="html/366322731.htm" />
+  <HelpKINode Title="DrawingEditInfo.type field" Url="html/1382256634.htm" />
+  <HelpKINode Title="DrawingEditType enumeration" Url="html/745124001.htm" />
+  <HelpKINode Title="DrawingEditType.Brighten field" Url="html/2039896225.htm" />
+  <HelpKINode Title="DrawingEditType.Crop field" Url="html/812213749.htm" />
+  <HelpKINode Title="DrawingEditType.Rotate field" Url="html/2106077035.htm" />
+  <HelpKINode Title="DrawingEditType.Sepia field" Url="html/1618541885.htm" />
+  <HelpKINode Title="DrawingEditType.Stretch field" Url="html/1862228428.htm" />
+  <HelpKINode Title="DrawingInfo class" Url="html/424069616.htm" />
+  <HelpKINode Title="DrawingInfo class" Url="html/996697386.htm" />
+  <HelpKINode Title="DrawingInfo class">
+    <HelpKINode Title="about DrawingInfo class" Url="html/424069616.htm" />
+    <HelpKINode Title="all members" Url="html/996697386.htm" />
+    <HelpKINode Title="fields" Url="html/1438293226.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawingInfo.dateTaken field" Url="html/425582984.htm" />
+  <HelpKINode Title="DrawingInfo.edits field" Url="html/1446586809.htm" />
+  <HelpKINode Title="DrawingInfo.ImageFile field" Url="html/969518923.htm" />
+  <HelpKINode Title="DrawingInfo.name field" Url="html/1423135905.htm" />
+  <HelpKINode Title="DrawingInfo.size field" Url="html/318286679.htm" />
+  <HelpKINode Title="DrawingInfo.softwareUsedForCapture field" Url="html/72400800.htm" />
+  <HelpKINode Title="drawings field" Url="html/1510710025.htm" />
+  <HelpKINode Title="drawingsMade field" Url="html/744593621.htm" />
+  <HelpKINode Title="EditedImageFile field" Url="html/1994718165.htm" />
+  <HelpKINode Title="edits field" Url="html/1305153981.htm" />
+  <HelpKINode Title="edits field" Url="html/1446586809.htm" />
+  <HelpKINode Title="employeeController field" Url="html/1468292084.htm" />
+  <HelpKINode Title="exceciseAttempted field" Url="html/116594476.htm" />
+  <HelpKINode Title="excercises field" Url="html/1300280727.htm" />
+  <HelpKINode Title="ExerciseInfo class" Url="html/2090516743.htm" />
+  <HelpKINode Title="ExerciseInfo class" Url="html/280298037.htm" />
+  <HelpKINode Title="ExerciseInfo class">
+    <HelpKINode Title="about ExerciseInfo class" Url="html/2090516743.htm" />
+    <HelpKINode Title="all members" Url="html/280298037.htm" />
+    <HelpKINode Title="fields" Url="html/1861768801.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExerciseInfo.audioFile field" Url="html/1280783559.htm" />
+  <HelpKINode Title="ExerciseInfo.dateTaken field" Url="html/1328726120.htm" />
+  <HelpKINode Title="ExerciseInfo.imageFile field" Url="html/910233198.htm" />
+  <HelpKINode Title="ExerciseInfo.name field" Url="html/429098798.htm" />
+  <HelpKINode Title="ExerciseInfo.relatedLesson field" Url="html/279360990.htm" />
+  <HelpKINode Title="ExerciseInfo.score field" Url="html/1684579802.htm" />
+  <HelpKINode Title="ExerciseInfo.size field" Url="html/1230569186.htm" />
+  <HelpKINode Title="ExerciseInfo.textFile field" Url="html/1916990497.htm" />
+  <HelpKINode Title="ExerciseInfo.videoFile field" Url="html/350821384.htm" />
+  <HelpKINode Title="ExerciseManager class" Url="html/149433560.htm" />
+  <HelpKINode Title="ExerciseManager class" Url="html/1597180332.htm" />
+  <HelpKINode Title="ExerciseManager class">
+    <HelpKINode Title="about ExerciseManager class" Url="html/149433560.htm" />
+    <HelpKINode Title="all members" Url="html/1597180332.htm" />
+    <HelpKINode Title="fields" Url="html/1255373274.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExerciseManager.excercises field" Url="html/1300280727.htm" />
+  <HelpKINode Title="ExerciseManager.finalScore field" Url="html/1643535030.htm" />
+  <HelpKINode Title="finalScore field" Url="html/1643535030.htm" />
+  <HelpKINode Title="Free enumeration member" Url="html/1041126080.htm" />
+  <HelpKINode Title="Free field" Url="html/87237133.htm" />
+  <HelpKINode Title="gateway field" Url="html/1645369743.htm" />
+  <HelpKINode Title="id property" Url="html/1738045416.htm" />
+  <HelpKINode Title="id property" Url="html/1759536204.htm" />
+  <HelpKINode Title="id property" Url="html/237790190.htm" />
+  <HelpKINode Title="imageFile field" Url="html/1469667764.htm" />
+  <HelpKINode Title="ImageFile field" Url="html/550110161.htm" />
+  <HelpKINode Title="ImageFile field" Url="html/969518923.htm" />
+  <HelpKINode Title="imageFile field" Url="html/910233198.htm" />
+  <HelpKINode Title="ImageInfo class" Url="html/1026349005.htm" />
+  <HelpKINode Title="ImageInfo class" Url="html/1131969157.htm" />
+  <HelpKINode Title="ImageInfo class">
+    <HelpKINode Title="about ImageInfo class" Url="html/1131969157.htm" />
+    <HelpKINode Title="all members" Url="html/1026349005.htm" />
+    <HelpKINode Title="fields" Url="html/389141792.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ImageInfo.dateTaken field" Url="html/2002873676.htm" />
+  <HelpKINode Title="ImageInfo.ImageFile field" Url="html/550110161.htm" />
+  <HelpKINode Title="ImageInfo.name field" Url="html/511676709.htm" />
+  <HelpKINode Title="ImageInfo.size field" Url="html/610528333.htm" />
+  <HelpKINode Title="lessonBought field" Url="html/2136452062.htm" />
+  <HelpKINode Title="LessonInfo class" Url="html/1175746970.htm" />
+  <HelpKINode Title="LessonInfo class" Url="html/304630710.htm" />
+  <HelpKINode Title="LessonInfo class">
+    <HelpKINode Title="about LessonInfo class" Url="html/304630710.htm" />
+    <HelpKINode Title="all members" Url="html/1175746970.htm" />
+    <HelpKINode Title="fields" Url="html/157171999.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LessonInfo.ageGroup field" Url="html/1400200839.htm" />
+  <HelpKINode Title="LessonInfo.audioFile field" Url="html/1405229831.htm" />
+  <HelpKINode Title="LessonInfo.datePurchased field" Url="html/1632341038.htm" />
+  <HelpKINode Title="LessonInfo.drawings field" Url="html/1510710025.htm" />
+  <HelpKINode Title="LessonInfo.imageFile field" Url="html/1469667764.htm" />
+  <HelpKINode Title="LessonInfo.name field" Url="html/28429171.htm" />
+  <HelpKINode Title="LessonInfo.size field" Url="html/85801669.htm" />
+  <HelpKINode Title="LessonInfo.textFile field" Url="html/1977194614.htm" />
+  <HelpKINode Title="LessonInfo.videoFile field" Url="html/1972516460.htm" />
+  <HelpKINode Title="LessonManager class" Url="html/1383409031.htm" />
+  <HelpKINode Title="LessonManager class" Url="html/741694114.htm" />
+  <HelpKINode Title="LessonManager class">
+    <HelpKINode Title="about LessonManager class" Url="html/741694114.htm" />
+    <HelpKINode Title="all members" Url="html/1383409031.htm" />
+    <HelpKINode Title="fields" Url="html/252979351.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LessonManager.lessons field" Url="html/713745594.htm" />
+  <HelpKINode Title="lessons field" Url="html/713745594.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/1917943267.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/38050617.htm" />
+  <HelpKINode Title="MainWindow class">
+    <HelpKINode Title="about MainWindow class" Url="html/1917943267.htm" />
+    <HelpKINode Title="all members" Url="html/38050617.htm" />
+    <HelpKINode Title="constructor" Url="html/1320850233.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainWindow.MainWindow constructor" Url="html/1320850233.htm" />
+  <HelpKINode Title="maxNumber field" Url="html/1255210112.htm" />
+  <HelpKINode Title="memberEdited field" Url="html/1078743915.htm" />
+  <HelpKINode Title="memberId property" Url="html/98771214.htm" />
+  <HelpKINode Title="MemberInfo class" Url="html/1042239657.htm" />
+  <HelpKINode Title="MemberInfo class" Url="html/1373341276.htm" />
+  <HelpKINode Title="MemberInfo class">
+    <HelpKINode Title="about MemberInfo class" Url="html/1373341276.htm" />
+    <HelpKINode Title="all members" Url="html/1042239657.htm" />
+    <HelpKINode Title="fields" Url="html/1579991680.htm" />
+    <HelpKINode Title="properties" Url="html/434214951.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemberInfo.accType property" Url="html/930953000.htm" />
+  <HelpKINode Title="MemberInfo.address property" Url="html/2123017781.htm" />
+  <HelpKINode Title="MemberInfo.contact property" Url="html/599246334.htm" />
+  <HelpKINode Title="MemberInfo.drawingsMade field" Url="html/744593621.htm" />
+  <HelpKINode Title="MemberInfo.exceciseAttempted field" Url="html/116594476.htm" />
+  <HelpKINode Title="MemberInfo.id property" Url="html/1738045416.htm" />
+  <HelpKINode Title="MemberInfo.lessonBought field" Url="html/2136452062.htm" />
+  <HelpKINode Title="MemberInfo.name property" Url="html/1291450781.htm" />
+  <HelpKINode Title="MemberInfo.payements field" Url="html/1835873668.htm" />
+  <HelpKINode Title="MemberManager class" Url="html/1327906790.htm" />
+  <HelpKINode Title="MemberManager class" Url="html/644999019.htm" />
+  <HelpKINode Title="MemberManager class">
+    <HelpKINode Title="about MemberManager class" Url="html/644999019.htm" />
+    <HelpKINode Title="all members" Url="html/1327906790.htm" />
+    <HelpKINode Title="fields" Url="html/1083826343.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemberManager.members field" Url="html/1583873776.htm" />
+  <HelpKINode Title="members field" Url="html/1583873776.htm" />
+  <HelpKINode Title="Monthly enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Monthly field" Url="html/451242247.htm" />
+  <HelpKINode Title="name field" Url="html/1423135905.htm" />
+  <HelpKINode Title="name field" Url="html/1534818982.htm" />
+  <HelpKINode Title="name field" Url="html/1550641944.htm" />
+  <HelpKINode Title="name field" Url="html/1562603502.htm" />
+  <HelpKINode Title="name field" Url="html/2088085032.htm" />
+  <HelpKINode Title="name field" Url="html/28429171.htm" />
+  <HelpKINode Title="name field" Url="html/429098798.htm" />
+  <HelpKINode Title="name field" Url="html/511676709.htm" />
+  <HelpKINode Title="name property" Url="html/1291450781.htm" />
+  <HelpKINode Title="name property" Url="html/2117638442.htm" />
+  <HelpKINode Title="OriginalImageFile field" Url="html/130786037.htm" />
+  <HelpKINode Title="payements field" Url="html/1835873668.htm" />
+  <HelpKINode Title="PaymentInfo class" Url="html/1719766624.htm" />
+  <HelpKINode Title="PaymentInfo class" Url="html/346412356.htm" />
+  <HelpKINode Title="PaymentInfo class">
+    <HelpKINode Title="about PaymentInfo class" Url="html/346412356.htm" />
+    <HelpKINode Title="all members" Url="html/1719766624.htm" />
+    <HelpKINode Title="fields" Url="html/1319745991.htm" />
+    <HelpKINode Title="properties" Url="html/902492144.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentInfo.amount property" Url="html/237729479.htm" />
+  <HelpKINode Title="PaymentInfo.dop property" Url="html/962501549.htm" />
+  <HelpKINode Title="PaymentInfo.gateway field" Url="html/1645369743.htm" />
+  <HelpKINode Title="PaymentInfo.id property" Url="html/1759536204.htm" />
+  <HelpKINode Title="PaymentInfo.memberId property" Url="html/98771214.htm" />
+  <HelpKINode Title="PaymentInfo.name property" Url="html/2117638442.htm" />
+  <HelpKINode Title="payments field" Url="html/1943607572.htm" />
+  <HelpKINode Title="Professional enumeration member" Url="html/1041126080.htm" />
+  <HelpKINode Title="Professional field" Url="html/130862282.htm" />
+  <HelpKINode Title="Quarterly enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Quarterly field" Url="html/308012347.htm" />
+  <HelpKINode Title="relatedLesson field" Url="html/279360990.htm" />
+  <HelpKINode Title="ReportInfo class" Url="html/2035108340.htm" />
+  <HelpKINode Title="ReportInfo class" Url="html/905045251.htm" />
+  <HelpKINode Title="ReportInfo class">
+    <HelpKINode Title="about ReportInfo class" Url="html/905045251.htm" />
+    <HelpKINode Title="all members" Url="html/2035108340.htm" />
+    <HelpKINode Title="properties" Url="html/1248270002.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReportInfo.date property" Url="html/1779133805.htm" />
+  <HelpKINode Title="ReportInfo.description property" Url="html/256573869.htm" />
+  <HelpKINode Title="ReportInfo.id property" Url="html/237790190.htm" />
+  <HelpKINode Title="ReportInfo.type property" Url="html/1359750073.htm" />
+  <HelpKINode Title="reports field" Url="html/1099237775.htm" />
+  <HelpKINode Title="ReportType enumeration" Url="html/1246053874.htm" />
+  <HelpKINode Title="ReportType.Daily field" Url="html/349244962.htm" />
+  <HelpKINode Title="ReportType.Monthly field" Url="html/451242247.htm" />
+  <HelpKINode Title="ReportType.Quarterly field" Url="html/308012347.htm" />
+  <HelpKINode Title="ReportType.Single field" Url="html/1123629171.htm" />
+  <HelpKINode Title="ReportType.Weekly field" Url="html/1503769484.htm" />
+  <HelpKINode Title="ReportType.Yearly field" Url="html/630791446.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/1756740730.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/720096204.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/2078778964.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/62992913.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/1681021925.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/1811857572.htm" />
+  <HelpKINode Title="Resources class" Url="html/121570590.htm" />
+  <HelpKINode Title="Resources class" Url="html/2064594663.htm" />
+  <HelpKINode Title="Resources class" Url="html/341460498.htm" />
+  <HelpKINode Title="Resources class" Url="html/762499222.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="about Resources class" Url="html/121570590.htm" />
+    <HelpKINode Title="about Resources class" Url="html/2064594663.htm" />
+    <HelpKINode Title="all members" Url="html/341460498.htm" />
+    <HelpKINode Title="all members" Url="html/762499222.htm" />
+    <HelpKINode Title="constructor" Url="html/1763396427.htm" />
+    <HelpKINode Title="constructor" Url="html/1882245495.htm" />
+    <HelpKINode Title="fields" Url="html/1014071152.htm" />
+    <HelpKINode Title="fields" Url="html/234959487.htm" />
+    <HelpKINode Title="properties" Url="html/1353585631.htm" />
+    <HelpKINode Title="properties" Url="html/543163810.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Resources.Culture property" Url="html/2103610068.htm" />
+  <HelpKINode Title="Resources.Culture property" Url="html/687856003.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/1756740730.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/720096204.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/2078778964.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/62992913.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/1681021925.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/1811857572.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/1763396427.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/1882245495.htm" />
+  <HelpKINode Title="Rotate enumeration member" Url="html/745124001.htm" />
+  <HelpKINode Title="Rotate field" Url="html/2106077035.htm" />
+  <HelpKINode Title="score field" Url="html/1684579802.htm" />
+  <HelpKINode Title="scoredMarks field" Url="html/691399399.htm" />
+  <HelpKINode Title="ScoreInfo class" Url="html/1339366881.htm" />
+  <HelpKINode Title="ScoreInfo class" Url="html/1792458515.htm" />
+  <HelpKINode Title="ScoreInfo class">
+    <HelpKINode Title="about ScoreInfo class" Url="html/1339366881.htm" />
+    <HelpKINode Title="all members" Url="html/1792458515.htm" />
+    <HelpKINode Title="fields" Url="html/1605602116.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScoreInfo.maxNumber field" Url="html/1255210112.htm" />
+  <HelpKINode Title="ScoreInfo.scoredMarks field" Url="html/691399399.htm" />
+  <HelpKINode Title="Sepia enumeration member" Url="html/745124001.htm" />
+  <HelpKINode Title="Sepia field" Url="html/1618541885.htm" />
+  <HelpKINode Title="Settings class" Url="html/114054946.htm" />
+  <HelpKINode Title="Settings class" Url="html/1612438071.htm" />
+  <HelpKINode Title="Settings class" Url="html/343051425.htm" />
+  <HelpKINode Title="Settings class" Url="html/632708794.htm" />
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="about Settings class" Url="html/114054946.htm" />
+    <HelpKINode Title="about Settings class" Url="html/343051425.htm" />
+    <HelpKINode Title="all members" Url="html/1612438071.htm" />
+    <HelpKINode Title="all members" Url="html/632708794.htm" />
+    <HelpKINode Title="fields" Url="html/1383833951.htm" />
+    <HelpKINode Title="fields" Url="html/2020044144.htm" />
+    <HelpKINode Title="properties" Url="html/1851752348.htm" />
+    <HelpKINode Title="properties" Url="html/439980718.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Default property" Url="html/164568963.htm" />
+  <HelpKINode Title="Settings.Default property" Url="html/1864775192.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/111490795.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/1398378968.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Single field" Url="html/1123629171.htm" />
+  <HelpKINode Title="size field" Url="html/1230569186.htm" />
+  <HelpKINode Title="size field" Url="html/1247711242.htm" />
+  <HelpKINode Title="size field" Url="html/27216640.htm" />
+  <HelpKINode Title="size field" Url="html/318286679.htm" />
+  <HelpKINode Title="size field" Url="html/395517822.htm" />
+  <HelpKINode Title="size field" Url="html/610528333.htm" />
+  <HelpKINode Title="size field" Url="html/79190636.htm" />
+  <HelpKINode Title="size field" Url="html/85801669.htm" />
+  <HelpKINode Title="softwareUsedForCapture field" Url="html/72400800.htm" />
+  <HelpKINode Title="softwareUsedtoEdit field" Url="html/366322731.htm" />
+  <HelpKINode Title="Stretch enumeration member" Url="html/745124001.htm" />
+  <HelpKINode Title="Stretch field" Url="html/1862228428.htm" />
+  <HelpKINode Title="textFile field" Url="html/1916990497.htm" />
+  <HelpKINode Title="textFile field" Url="html/1977194614.htm" />
+  <HelpKINode Title="TextInfo class" Url="html/2072101315.htm" />
+  <HelpKINode Title="TextInfo class" Url="html/437253977.htm" />
+  <HelpKINode Title="TextInfo class">
+    <HelpKINode Title="about TextInfo class" Url="html/2072101315.htm" />
+    <HelpKINode Title="all members" Url="html/437253977.htm" />
+    <HelpKINode Title="fields" Url="html/1615524410.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TextInfo.dateTaken field" Url="html/1895100703.htm" />
+  <HelpKINode Title="TextInfo.name field" Url="html/1550641944.htm" />
+  <HelpKINode Title="TextInfo.size field" Url="html/79190636.htm" />
+  <HelpKINode Title="TextInfo.txtFile field" Url="html/2054267127.htm" />
+  <HelpKINode Title="txtFile field" Url="html/2054267127.htm" />
+  <HelpKINode Title="type field" Url="html/1382256634.htm" />
+  <HelpKINode Title="type property" Url="html/1359750073.htm" />
+  <HelpKINode Title="videoFile field" Url="html/1972516460.htm" />
+  <HelpKINode Title="videoFile field" Url="html/350821384.htm" />
+  <HelpKINode Title="videoFile field" Url="html/898003657.htm" />
+  <HelpKINode Title="VideoInfo class" Url="html/1488063546.htm" />
+  <HelpKINode Title="VideoInfo class" Url="html/855415177.htm" />
+  <HelpKINode Title="VideoInfo class">
+    <HelpKINode Title="about VideoInfo class" Url="html/1488063546.htm" />
+    <HelpKINode Title="all members" Url="html/855415177.htm" />
+    <HelpKINode Title="fields" Url="html/285723620.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VideoInfo.dateTaken field" Url="html/663768967.htm" />
+  <HelpKINode Title="VideoInfo.name field" Url="html/1534818982.htm" />
+  <HelpKINode Title="VideoInfo.size field" Url="html/395517822.htm" />
+  <HelpKINode Title="VideoInfo.videoFile field" Url="html/898003657.htm" />
+  <HelpKINode Title="Weekly enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Weekly field" Url="html/1503769484.htm" />
+  <HelpKINode Title="Yearly enumeration member" Url="html/1246053874.htm" />
+  <HelpKINode Title="Yearly field" Url="html/630791446.htm" />
+</HelpKI>

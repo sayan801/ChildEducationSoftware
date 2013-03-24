@@ -1,0 +1,21 @@
+<GhostDoc>
+  <SpellChecker>
+    <IncludeExtensions>
+    </IncludeExtensions>
+    <IgnoreExtensions>
+    </IgnoreExtensions>
+    <IgnoreFiles>
+    </IgnoreFiles>
+  </SpellChecker>
+  <HelpFile>
+    <OutputPath>C%3a%5cUsers%5cchandra%5cDocuments%5cGitHub%5cChildEducationSoftware%5ccode%5cHelp</OutputPath>
+    <SelectedProjects>ChildEducationSoftwareEngine%3bChildEducationSoftwareGUI%3bChildEducationSoftwareStorage%3bChildEducationSoftwareStyle</SelectedProjects>
+    <HtmlHelp1>True</HtmlHelp1>
+    <MSHelp2>False</MSHelp2>
+    <MSHelpViewer>True</MSHelpViewer>
+    <Website>True</Website>
+    <DocumentInternals>True</DocumentInternals>
+    <DocumentProtected>True</DocumentProtected>
+    <DocumentPrivates>True</DocumentPrivates>
+  </HelpFile>
+</GhostDoc>

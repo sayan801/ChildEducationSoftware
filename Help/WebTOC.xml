@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="56274c30-9e89-467f-b5db-2da71b11b5de" Title="ChildEducationSoftwareEngine Namespace" Url="html/333206046.htm">
+    <HelpTOCNode Id="6d52e25e-6160-4ec9-951a-6d236b408c57" Title="CESController Class" Url="html/541674045.htm">
+      <HelpTOCNode Title="CESController Members" Url="html/447011567.htm" />
+      <HelpTOCNode Id="e22d659c-c7cc-48f1-83dc-53cfa79eecb9" Title="CESController Fields" Url="html/20505592.htm">
+        <HelpTOCNode Title="reports Field" Url="html/1099237775.htm" />
+        <HelpTOCNode Title="payments Field" Url="html/1943607572.htm" />
+        <HelpTOCNode Title="employeeController Field" Url="html/1468292084.htm" />
+        <HelpTOCNode Title="customerController Field" Url="html/2075059205.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="65787d6a-5ff6-45a8-9efa-d59560243630" Title="MemberManager Class" Url="html/644999019.htm">
+      <HelpTOCNode Title="MemberManager Members" Url="html/1327906790.htm" />
+      <HelpTOCNode Id="d86d0041-d3f9-40a9-90f6-774806dd0754" Title="MemberManager Fields" Url="html/1083826343.htm">
+        <HelpTOCNode Title="members Field" Url="html/1583873776.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe269d8c-6192-4f4f-b034-877a6afd27a6" Title="ExerciseManager Class" Url="html/149433560.htm">
+      <HelpTOCNode Title="ExerciseManager Members" Url="html/1597180332.htm" />
+      <HelpTOCNode Id="b5cc7897-382a-4e35-8b16-fb78e625d7cf" Title="ExerciseManager Fields" Url="html/1255373274.htm">
+        <HelpTOCNode Title="excercises Field" Url="html/1300280727.htm" />
+        <HelpTOCNode Title="finalScore Field" Url="html/1643535030.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ffce365c-e99b-4ba9-a7a5-bf274a45e487" Title="LessonManager Class" Url="html/741694114.htm">
+      <HelpTOCNode Title="LessonManager Members" Url="html/1383409031.htm" />
+      <HelpTOCNode Id="e8e199aa-97da-4428-b505-8d69d0baebec" Title="LessonManager Fields" Url="html/252979351.htm">
+        <HelpTOCNode Title="lessons Field" Url="html/713745594.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="51bb8e95-b22d-4809-a96a-5231fecb35c8" Title="DrawingEditController Class" Url="html/477062516.htm">
+      <HelpTOCNode Title="DrawingEditController Members" Url="html/1949375948.htm" />
+      <HelpTOCNode Id="f8d6ed01-6aa7-43e2-b277-06438c1c7d92" Title="DrawingEditController Fields" Url="html/210875505.htm">
+        <HelpTOCNode Title="edits Field" Url="html/1305153981.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07a702be-9352-4ba2-b9cf-50deac885782" Title="MemberInfo Class" Url="html/1373341276.htm">
+      <HelpTOCNode Title="MemberInfo Members" Url="html/1042239657.htm" />
+      <HelpTOCNode Id="eba178f1-9b3e-4eb8-9675-074b426959e6" Title="MemberInfo Fields" Url="html/1579991680.htm">
+        <HelpTOCNode Title="lessonBought Field" Url="html/2136452062.htm" />
+        <HelpTOCNode Title="exceciseAttempted Field" Url="html/116594476.htm" />
+        <HelpTOCNode Title="drawingsMade Field" Url="html/744593621.htm" />
+        <HelpTOCNode Title="payements Field" Url="html/1835873668.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="edadff36-364b-413d-be1d-ecc60b93c09a" Title="MemberInfo Properties" Url="html/434214951.htm">
+        <HelpTOCNode Title="id Property " Url="html/1738045416.htm" />
+        <HelpTOCNode Title="name Property " Url="html/1291450781.htm" />
+        <HelpTOCNode Title="address Property " Url="html/2123017781.htm" />
+        <HelpTOCNode Title="contact Property " Url="html/599246334.htm" />
+        <HelpTOCNode Title="accType Property " Url="html/930953000.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8418fc9c-2865-42ae-8ac4-92fc74d80ea0" Title="PaymentInfo Class" Url="html/346412356.htm">
+      <HelpTOCNode Title="PaymentInfo Members" Url="html/1719766624.htm" />
+      <HelpTOCNode Id="b445c62e-49f0-4bd1-a6e1-7b321ae8e516" Title="PaymentInfo Fields" Url="html/1319745991.htm">
+        <HelpTOCNode Title="gateway Field" Url="html/1645369743.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b19c37c-371d-4eeb-aec3-c2b61213cb89" Title="PaymentInfo Properties" Url="html/902492144.htm">
+        <HelpTOCNode Title="id Property " Url="html/1759536204.htm" />
+        <HelpTOCNode Title="name Property " Url="html/2117638442.htm" />
+        <HelpTOCNode Title="memberId Property " Url="html/98771214.htm" />
+        <HelpTOCNode Title="amount Property " Url="html/237729479.htm" />
+        <HelpTOCNode Title="dop Property " Url="html/962501549.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0aa527fe-21f6-4fe1-a0ad-3a170d39a210" Title="LessonInfo Class" Url="html/304630710.htm">
+      <HelpTOCNode Title="LessonInfo Members" Url="html/1175746970.htm" />
+      <HelpTOCNode Id="3c3fde43-b4ba-4eec-bf3b-c4520d1d82ff" Title="LessonInfo Fields" Url="html/157171999.htm">
+        <HelpTOCNode Title="drawings Field" Url="html/1510710025.htm" />
+        <HelpTOCNode Title="name Field" Url="html/28429171.htm" />
+        <HelpTOCNode Title="ageGroup Field" Url="html/1400200839.htm" />
+        <HelpTOCNode Title="imageFile Field" Url="html/1469667764.htm" />
+        <HelpTOCNode Title="videoFile Field" Url="html/1972516460.htm" />
+        <HelpTOCNode Title="audioFile Field" Url="html/1405229831.htm" />
+        <HelpTOCNode Title="textFile Field" Url="html/1977194614.htm" />
+        <HelpTOCNode Title="size Field" Url="html/85801669.htm" />
+        <HelpTOCNode Title="datePurchased Field" Url="html/1632341038.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1ea76b5-7055-4ee9-b8d8-4c89b9686f20" Title="ExerciseInfo Class" Url="html/2090516743.htm">
+      <HelpTOCNode Title="ExerciseInfo Members" Url="html/280298037.htm" />
+      <HelpTOCNode Id="736c80f1-8f17-48ec-a709-82ee3a008760" Title="ExerciseInfo Fields" Url="html/1861768801.htm">
+        <HelpTOCNode Title="name Field" Url="html/429098798.htm" />
+        <HelpTOCNode Title="relatedLesson Field" Url="html/279360990.htm" />
+        <HelpTOCNode Title="imageFile Field" Url="html/910233198.htm" />
+        <HelpTOCNode Title="videoFile Field" Url="html/350821384.htm" />
+        <HelpTOCNode Title="audioFile Field" Url="html/1280783559.htm" />
+        <HelpTOCNode Title="textFile Field" Url="html/1916990497.htm" />
+        <HelpTOCNode Title="size Field" Url="html/1230569186.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/1328726120.htm" />
+        <HelpTOCNode Title="score Field" Url="html/1684579802.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cb5e36ff-4923-490e-85c9-f028fd1eae92" Title="ScoreInfo Class" Url="html/1339366881.htm">
+      <HelpTOCNode Title="ScoreInfo Members" Url="html/1792458515.htm" />
+      <HelpTOCNode Id="dc643fcb-4808-45e4-a6a0-dd3323e5223d" Title="ScoreInfo Fields" Url="html/1605602116.htm">
+        <HelpTOCNode Title="maxNumber Field" Url="html/1255210112.htm" />
+        <HelpTOCNode Title="scoredMarks Field" Url="html/691399399.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cc13c9c6-12da-41b6-ad6c-60940af80ee6" Title="DrawingInfo Class" Url="html/424069616.htm">
+      <HelpTOCNode Title="DrawingInfo Members" Url="html/996697386.htm" />
+      <HelpTOCNode Id="78a0f91e-3975-44d1-9d06-66b58d20c263" Title="DrawingInfo Fields" Url="html/1438293226.htm">
+        <HelpTOCNode Title="edits Field" Url="html/1446586809.htm" />
+        <HelpTOCNode Title="name Field" Url="html/1423135905.htm" />
+        <HelpTOCNode Title="softwareUsedForCapture Field" Url="html/72400800.htm" />
+        <HelpTOCNode Title="ImageFile Field" Url="html/969518923.htm" />
+        <HelpTOCNode Title="size Field" Url="html/318286679.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/425582984.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4243664-a9c0-4ea2-aaff-87724bbb9e02" Title="TextInfo Class" Url="html/2072101315.htm">
+      <HelpTOCNode Title="TextInfo Members" Url="html/437253977.htm" />
+      <HelpTOCNode Id="ab0a7187-109d-4fd7-ac24-c4653593754b" Title="TextInfo Fields" Url="html/1615524410.htm">
+        <HelpTOCNode Title="name Field" Url="html/1550641944.htm" />
+        <HelpTOCNode Title="txtFile Field" Url="html/2054267127.htm" />
+        <HelpTOCNode Title="size Field" Url="html/79190636.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/1895100703.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e7b0406-4af8-4295-bf3c-ac771ee9d432" Title="AudioInfo Class" Url="html/1582667939.htm">
+      <HelpTOCNode Title="AudioInfo Members" Url="html/772088807.htm" />
+      <HelpTOCNode Id="06f87122-c131-4d70-b010-03054749a489" Title="AudioInfo Fields" Url="html/1546162563.htm">
+        <HelpTOCNode Title="name Field" Url="html/2088085032.htm" />
+        <HelpTOCNode Title="audioFile Field" Url="html/463312174.htm" />
+        <HelpTOCNode Title="size Field" Url="html/27216640.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/469846506.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63fa702c-f44c-4c76-bd77-9a674aacfcf3" Title="VideoInfo Class" Url="html/1488063546.htm">
+      <HelpTOCNode Title="VideoInfo Members" Url="html/855415177.htm" />
+      <HelpTOCNode Id="83ad1e0c-ae26-49c5-861b-774eda68dfc8" Title="VideoInfo Fields" Url="html/285723620.htm">
+        <HelpTOCNode Title="name Field" Url="html/1534818982.htm" />
+        <HelpTOCNode Title="videoFile Field" Url="html/898003657.htm" />
+        <HelpTOCNode Title="size Field" Url="html/395517822.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/663768967.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e6541d4-6df7-4090-bc8a-c42d29a66a8f" Title="ImageInfo Class" Url="html/1131969157.htm">
+      <HelpTOCNode Title="ImageInfo Members" Url="html/1026349005.htm" />
+      <HelpTOCNode Id="02e6e473-5fe2-4d7b-8c36-d3d9683cdf2a" Title="ImageInfo Fields" Url="html/389141792.htm">
+        <HelpTOCNode Title="name Field" Url="html/511676709.htm" />
+        <HelpTOCNode Title="ImageFile Field" Url="html/550110161.htm" />
+        <HelpTOCNode Title="size Field" Url="html/610528333.htm" />
+        <HelpTOCNode Title="dateTaken Field" Url="html/2002873676.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e526daf8-9a45-43b7-b2c7-d8a4ff795909" Title="DrawingEditInfo Class" Url="html/1062276712.htm">
+      <HelpTOCNode Title="DrawingEditInfo Members" Url="html/2088175434.htm" />
+      <HelpTOCNode Id="f1557b42-d9d1-4f58-a29b-25495f38a4ce" Title="DrawingEditInfo Fields" Url="html/924991214.htm">
+        <HelpTOCNode Title="name Field" Url="html/1562603502.htm" />
+        <HelpTOCNode Title="softwareUsedtoEdit Field" Url="html/366322731.htm" />
+        <HelpTOCNode Title="memberEdited Field" Url="html/1078743915.htm" />
+        <HelpTOCNode Title="OriginalImageFile Field" Url="html/130786037.htm" />
+        <HelpTOCNode Title="EditedImageFile Field" Url="html/1994718165.htm" />
+        <HelpTOCNode Title="size Field" Url="html/1247711242.htm" />
+        <HelpTOCNode Title="dateEdited Field" Url="html/1979465604.htm" />
+        <HelpTOCNode Title="type Field" Url="html/1382256634.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="73886cdf-2da8-4993-90ce-40480a0a3f41" Title="ReportInfo Class" Url="html/905045251.htm">
+      <HelpTOCNode Title="ReportInfo Members" Url="html/2035108340.htm" />
+      <HelpTOCNode Id="650015a1-e182-4df9-9ff7-9c89d640c565" Title="ReportInfo Properties" Url="html/1248270002.htm">
+        <HelpTOCNode Title="id Property " Url="html/237790190.htm" />
+        <HelpTOCNode Title="date Property " Url="html/1779133805.htm" />
+        <HelpTOCNode Title="type Property " Url="html/1359750073.htm" />
+        <HelpTOCNode Title="description Property " Url="html/256573869.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ReportType Enumeration" Url="html/1246053874.htm" />
+    <HelpTOCNode Title="DrawingEditType Enumeration" Url="html/745124001.htm" />
+    <HelpTOCNode Title="AccountType Enumeration" Url="html/1041126080.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="bb5a9fe7-ee94-4ed7-97a6-6ec63b822de7" Title="ChildEducationSoftwareGUI Namespace" Url="html/848302708.htm">
+    <HelpTOCNode Id="2188fb35-9f27-4c38-8355-d59331454dd1" Title="App Class" Url="html/1973931447.htm">
+      <HelpTOCNode Title="App Members" Url="html/1590981133.htm" />
+      <HelpTOCNode Title="App Members" Url="html/1590981133.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/1223977767.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="06c69624-8ea4-4448-9eb1-f97d771f6894" Title="App Class" Url="html/1973931447.htm">
+      <HelpTOCNode Title="App Members" Url="html/1590981133.htm" />
+      <HelpTOCNode Title="App Members" Url="html/1590981133.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/1223977767.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6d0fa07c-4428-40bc-be45-09da6bcef5ab" Title="MainWindow Class" Url="html/1917943267.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/38050617.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/38050617.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/1320850233.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0bec231b-07dc-40f4-8668-34c6dca5ea8a" Title="MainWindow Class" Url="html/1917943267.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/38050617.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/38050617.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/1320850233.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="498af032-6641-4ab4-8626-a14685a57dcb" Title="ChildEducationSoftwareGUI.Properties Namespace" Url="html/1902788372.htm">
+    <HelpTOCNode Id="820717a3-a5ce-49de-af4e-9f259d9e84f9" Title="Resources Class" Url="html/2064594663.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/762499222.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/1882245495.htm" />
+      <HelpTOCNode Id="56fb9a4e-9421-4fd0-96e7-1beaf51140bb" Title="Resources Fields" Url="html/1014071152.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/62992913.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/720096204.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7d9535bc-1f82-468c-84ff-787bcd6e62bb" Title="Resources Properties" Url="html/543163810.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/1681021925.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/2103610068.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b86f2c4b-eae7-41c6-9d59-4dead5cd1031" Title="Settings Class" Url="html/114054946.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/1612438071.htm" />
+      <HelpTOCNode Id="e10e98cf-f31b-4902-9d65-adff0c23bb0e" Title="Settings Fields" Url="html/1383833951.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/1398378968.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a74c0d9e-cc30-41ed-97a3-c83ce14b18e9" Title="Settings Properties" Url="html/1851752348.htm">
+        <HelpTOCNode Title="Default Property " Url="html/164568963.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="96f751d0-2b0d-46ba-87eb-70639c58acdb" Title="ChildEducationSoftwareStyle.Properties Namespace" Url="html/1403211909.htm">
+    <HelpTOCNode Id="0c1df48c-f74e-49c4-aa2a-145bbd3b0b87" Title="Resources Class" Url="html/121570590.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/341460498.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/1763396427.htm" />
+      <HelpTOCNode Id="59934cae-b588-4ab0-9393-8ecc256481cc" Title="Resources Fields" Url="html/234959487.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/2078778964.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/1756740730.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2a7248f2-6984-450a-8585-6514bc462e8d" Title="Resources Properties" Url="html/1353585631.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/1811857572.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/687856003.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b419fae6-ee76-4aab-9e5c-de0f9502c0aa" Title="Settings Class" Url="html/343051425.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/632708794.htm" />
+      <HelpTOCNode Id="44a334f6-1d96-486c-abcb-1a2d8d42a8bf" Title="Settings Fields" Url="html/2020044144.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/111490795.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="522efc45-5eda-405e-8f36-2d75e1aa07cb" Title="Settings Properties" Url="html/439980718.htm">
+        <HelpTOCNode Title="Default Property " Url="html/1864775192.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="007bda1d-d7cd-4d00-8faf-0510707267c4" Title="ChildEducationSoftwareStorage Namespace" Url="html/292741945.htm">
+    <HelpTOCNode Title="ChildEducationSoftwareStorage Class" Url="html/1153410324.htm" />
+  </HelpTOCNode>
+</HelpTOC>
