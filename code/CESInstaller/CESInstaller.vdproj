@@ -297,13 +297,13 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_55F37A8B2A6843AEB623A4DE6D570C7D"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2AFCAB3D0AEE4D52876E1A4573D2131D"
                     {
-                    "Name" = "8:eKomfortZone"
+                    "Name" = "8:Technicise.com"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_0B4764EBAE574B2B985EFB90CDB6039E"
+                    "Property" = "8:_34E3476156C3402DBED74975D7916DA9"
                         "Folders"
                         {
                         }
@@ -327,7 +327,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Child Education Software"
         "ProductCode" = "8:{D0D1B252-2BB8-4F50-B383-FBDFEAF5F188}"
-        "PackageCode" = "8:{4D150942-A6B1-4FAA-B596-DBCD2BCDB6CC}"
+        "PackageCode" = "8:{1809A55C-86CF-4CB5-AD32-FA718F7DCEA5}"
         "UpgradeCode" = "8:{E82D3688-A373-43F8-AA64-C16703408DF2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -340,7 +340,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:Child Education Software"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:eKomfortZone"
+        "ARPCONTACT" = "8:Technicise.com"
         "Keywords" = "8:ChildEducationSoftware"
         "ARPCOMMENTS" = "8:Child Education Software will enable a new aspect of teaching children with the help of modern technology. It will incorporate audio visual teaching method with user friendly interface. Almost every family is having a computer now. We are used to computerized system in every walk of our life. So kids also will be attracted towards computer. We can use computer as a mean of teaching new things. Because of rich multi-media content kids will be happy to use computer for learning new topics. "
         "ARPURLINFOABOUT" = "8:www.technicise.com"
@@ -461,7 +461,7 @@
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE2DF38A6E124EAA9C62D411BDA7ED5B"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B294A24F2E2243BDAD2F5DB8A9BDA4A5"
             {
             "Name" = "8:Child Education Software"
             "Arguments" = "8:"
@@ -470,7 +470,7 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_34D499BDB19F4383BAE878D15063A8C2"
-            "Folder" = "8:_55F37A8B2A6843AEB623A4DE6D570C7D"
+            "Folder" = "8:_2AFCAB3D0AEE4D52876E1A4573D2131D"
             "WorkingFolder" = "8:_5C1057443547417092CA0DA4FA4394DD"
             "Icon" = "8:"
             "Feature" = "8:"
