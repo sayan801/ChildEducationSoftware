@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ChildEducationSoftwareGUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Child Education Software" Height="700" Width="800" WindowState="Maximized" Background="Gray">
+        Title="Child Education Software" Height="700" Width="800" WindowState="Maximized" Background="Gray" Loaded="Window_Loaded" >
 
     <Window.Resources>
         <ResourceDictionary>
@@ -75,9 +75,9 @@
         <UniformGrid>
             <DockPanel LastChildFill="True">
                 <DockPanel DockPanel.Dock="Top" LastChildFill="True">
-                    <Button DockPanel.Dock="Left" Name="PrBtn" Content="&lt;"  Style="{StaticResource MainBtnStyle}"></Button>
-                    <Button DockPanel.Dock="Right" Content="&gt;" Name="nxtBtn"  Style="{StaticResource MainBtnStyle}" ></Button>
-                    <Label Name="textAreaPane" FontSize="35" DockPanel.Dock="Top" Height="100" Background="#8CAAD7" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FFB33333" FontWeight="Bold" FontFamily="Monotype Corsiva" FontStretch="UltraCondensed" FontStyle="Italic">A for Apple ... A is the first character....</Label>
+                    <Button DockPanel.Dock="Left" Name="PrBtn" Content="&lt;"  Style="{StaticResource MainBtnStyle}" Click="PrBtn_Click"></Button>
+                    <Button DockPanel.Dock="Right" Content="&gt;" Name="nxtBtn"  Style="{StaticResource MainBtnStyle}" Click="nxtBtn_Click"></Button>
+                    <Label Name="textAreaPane" FontSize="35" DockPanel.Dock="Top" Height="100" Background="#8CAAD7" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FFB33333" FontWeight="Bold" FontFamily="Monotype Corsiva" FontStretch="UltraCondensed" FontStyle="Italic"></Label>
                    
                 </DockPanel>
                

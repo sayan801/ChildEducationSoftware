@@ -105,6 +105,10 @@
       <Project>{DCF0005B-473E-4F6A-BD4F-1019071D24A6}</Project>
       <Name>ChildEducationSoftwareStyle</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PredefinedTutorialInfo\PredefinedTutorialInfo.csproj">
+      <Project>{C5D2CDDD-FBFF-42D7-8C92-5987B636FCAE}</Project>
+      <Name>PredefinedTutorialInfo</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\apple-img.png" />

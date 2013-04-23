@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
+using PredefinedTutorialInfo;
 
 namespace ChildEducationSoftwareGUI
 {
@@ -194,6 +195,21 @@ namespace ChildEducationSoftwareGUI
             drawingPane.DefaultDrawingAttributes.Color = Colors.Blue;
             drawingPane.DefaultDrawingAttributes.Height = 2;
             drawingPane.DefaultDrawingAttributes.Width = 2;
+        }
+
+        private void PrBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void nxtBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //List<PredefinedTutorialInfoClass> tutorialList = ChildEducationSoftwareStorage.ChildEducationSoftwareStorage.showTutorial();
         }
 
     }
