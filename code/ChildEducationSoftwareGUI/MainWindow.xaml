@@ -35,7 +35,7 @@
                 <Button Margin="5" Content="Remaining: 9:00" Style="{StaticResource MainBtnStyle}" IsEnabled="False"></Button>
                 <Button Margin="5" Content="Page Number: 01" Style="{StaticResource MainBtnStyle}" IsEnabled="False"></Button>
                 <CheckBox VerticalAlignment="Center" IsChecked="True" FontSize="15" FontWeight="Bold" Foreground="White">Sound ON</CheckBox>
-                <ProgressBar Width="150" Margin="5" Value="20"></ProgressBar>
+                <ProgressBar Width="100" Margin="5" Value="20"></ProgressBar>
             </UniformGrid>
         </StatusBar>
 
