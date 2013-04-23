@@ -74,7 +74,13 @@
         </UniformGrid>
         <UniformGrid>
             <DockPanel LastChildFill="True">
-                <Label Name="textAreaPane" FontSize="35" DockPanel.Dock="Top" Height="100" Background="#8CAAD7" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FFB33333" FontWeight="Bold" FontFamily="Monotype Corsiva" FontStretch="UltraCondensed" FontStyle="Italic">A for Apple ... A is the first character....</Label>
+                <DockPanel DockPanel.Dock="Top" LastChildFill="True">
+                    <Button DockPanel.Dock="Left" Name="PrBtn" Content="&lt;"  Style="{StaticResource MainBtnStyle}"></Button>
+                    <Button DockPanel.Dock="Right" Content="&gt;" Name="nxtBtn"  Style="{StaticResource MainBtnStyle}" ></Button>
+                    <Label Name="textAreaPane" FontSize="35" DockPanel.Dock="Top" Height="100" Background="#8CAAD7" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FFB33333" FontWeight="Bold" FontFamily="Monotype Corsiva" FontStretch="UltraCondensed" FontStyle="Italic">A for Apple ... A is the first character....</Label>
+                   
+                </DockPanel>
+               
                 <UniformGrid Margin="5" DockPanel.Dock="Bottom" Rows="1">
                     <Button Style="{StaticResource MainBtnStyle}">Prev</Button>
                     <Button Style="{StaticResource MainBtnStyle}">Next</Button>
